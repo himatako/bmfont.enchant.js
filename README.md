@@ -23,7 +23,8 @@ How to use bmfont.enchant.js
 var bmLabel = new FontSprite('score', 100, 25, "100pts.");
 bmLabel.x = 160;
 bmLabel.y = 64;
-bmLabel.opacity = 0.5;
+bmLabel.opacity = 0.5; // FontSprite can be used like Sprite class
+bmLabel.text = "Hello, World";
 scene.addChild(bmLabel);
 ```
 
