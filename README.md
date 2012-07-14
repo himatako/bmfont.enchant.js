@@ -14,9 +14,9 @@ How to use bmfont.enchant.js
 4. Include bmfont.enchant.js into your HTML file.
 
 5. To use a font, you have to register a font first. The following code will register the font under the name 'score'
-<code>
+```javascript
     enchant.bmfont.createFont('score', 'res/font.fnt', game.assets['res/font_0.png']);
-</code>
+```
 
 6. Create an instance of a FontSprite class to use the created bitmap font.
 ```javascript
