@@ -3,7 +3,7 @@ BMFont plugin for enchant.js
 bmfont.enchant.js is a plugin for [enchant.js][1] that lets you use bitmap font 
 generated from [AngelCode's BMFont][2] easily.
 
-How to create a bitmap font
+How to use bmfont.enchant.js
 ---------------------------
 1. Download [AngelCode's BMFont][2]
 
