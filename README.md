@@ -26,3 +26,6 @@ How to create a bitmap font
     bmLabel.opacity = 0.5;<br/>
     scene.addChild(bmLabel);<br/>
 </code>
+
+[1]:http://enchantjs.com "enchant.js"
+[2]:http://www.angelcode.com/products/bmfont/ "AngelCode's BMFont"
