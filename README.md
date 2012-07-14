@@ -19,13 +19,13 @@ How to use bmfont.enchant.js
 </code>
 
 6. Create an instance of a FontSprite class to use the created bitmap font.
-'''js
+```javascript
 var bmLabel = new FontSprite('score', 100, 25, "100pts.");
 bmLabel.x = 160;
 bmLabel.y = 64;
 bmLabel.opacity = 0.5;
 scene.addChild(bmLabel);
-'''
+```
 
 [1]:http://enchantjs.com "enchant.js"
 [2]:http://www.angelcode.com/products/bmfont/ "AngelCode's BMFont"
