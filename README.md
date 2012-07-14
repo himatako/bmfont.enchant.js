@@ -19,8 +19,8 @@ How to create a bitmap font
 5. Create an instance of a FontSprite class to use the created bitmap font.
 <code>
     var bmLabel = new FontSprite('score', 100, 25, "100pts.");<br/>
-    bmLabel.x = 160;
-    bmLabel.y = 64;
-    bmLabel.opacity = 0.5;
-    scene.addChild(bmLabel);
+    bmLabel.x = 160;<br/>
+    bmLabel.y = 64;<br/>
+    bmLabel.opacity = 0.5;<br/>
+    scene.addChild(bmLabel);<br/>
 </code>
