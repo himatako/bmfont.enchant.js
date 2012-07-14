@@ -11,12 +11,14 @@ How to create a bitmap font
 
 3. Create a font, and you will get font_name.fnt and font_name_0.png, put these files in your game folder
 
-4. To use a font, you have to register a font first. The following code will register the font under the name 'score'
+4. Include bmfont.enchant.js into your HTML file.
+
+5. To use a font, you have to register a font first. The following code will register the font under the name 'score'
 <code>
     enchant.bmfont.createFont('score', 'res/font.fnt', game.assets['res/font_0.png']);
 </code>
 
-5. Create an instance of a FontSprite class to use the created bitmap font.
+6. Create an instance of a FontSprite class to use the created bitmap font.
 <code>
     var bmLabel = new FontSprite('score', 100, 25, "100pts.");<br/>
     bmLabel.x = 160;<br/>
